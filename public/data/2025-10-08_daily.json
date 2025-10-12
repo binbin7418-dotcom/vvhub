@@ -1,0 +1,59 @@
+{
+  "date": "2025-10-08",
+  "reddit": [
+    { "title": "Reddit 热点 1", "summary": "这是新闻内容摘要，让卡片看起来更饱满。", "url": "#" },
+    { "title": "Reddit 热点 2", "summary": "探索今日全球最有趣的话题和讨论。", "url": "#" },
+    { "title": "Reddit 热点 3", "summary": "每日趋势速递，一分钟了解世界动态。", "url": "#" },
+    { "title": "Reddit 热点 4", "summary": "社区精选内容，不容错过的精彩瞬间。", "url": "#" },
+    { "title": "Reddit 热点 5", "summary": "这是新闻内容摘要，让卡片看起来更饱满。", "url": "#" },
+    { "title": "Reddit 热点 6", "summary": "探索今日全球最有趣的话题和讨论。", "url": "#" },
+    { "title": "Reddit 热点 7", "summary": "每日趋势速递，一分钟了解世界动态。", "url": "#" },
+    { "title": "Reddit 热点 8", "summary": "社区精选内容，不容错过的精彩瞬间。", "url": "#" },
+    { "title": "Reddit 热点 9", "summary": "这是新闻内容摘要，让卡片看起来更饱满。", "url": "#" },
+    { "title": "Reddit 热点 10", "summary": "探索今日全球最有趣的话题和讨论。", "url": "#" },
+    { "title": "Reddit 热点 11", "summary": "每日趋势速递，一分钟了解世界动态。", "url": "#" },
+    { "title": "Reddit 热点 12", "summary": "社区精选内容，不容错过的精彩瞬间。", "url": "#" }
+  ],
+  "ai_tools": [
+    { "title": "AI 工具教学 1", "summary": "每日实用AI工具，提升你的工作效率。", "url": "#" },
+    { "title": "AI 工具教学 2", "summary": "白嫖教程，免费使用强大的AI功能。", "url": "#" },
+    { "title": "AI 工具教学 3", "summary": "精选Prompt更新，让你的AI更懂你。", "url": "#" },
+    { "title": "AI 工具教学 4", "summary": "AI绘画、写作、编程工具一网打尽。", "url": "#" },
+    { "title": "AI 工具教学 5", "summary": "每日实用AI工具，提升你的工作效率。", "url": "#" },
+    { "title": "AI 工具教学 6", "summary": "白嫖教程，免费使用强大的AI功能。", "url": "#" },
+    { "title": "AI 工具教学 7", "summary": "精选Prompt更新，让你的AI更懂你。", "url": "#" },
+    { "title": "AI 工具教学 8", "summary": "AI绘画、写作、编程工具一网打尽。", "url": "#" },
+    { "title": "AI 工具教学 9", "summary": "每日实用AI工具，提升你的工作效率。", "url": "#" },
+    { "title": "AI 工具教学 10", "summary": "白嫖教程，免费使用强大的AI功能。", "url": "#" },
+    { "title": "AI 工具教学 11", "summary": "精选Prompt更新，让你的AI更懂你。", "url": "#" },
+    { "title": "AI 工具教学 12", "summary": "AI绘画、写作、编程工具一网打尽。", "url": "#" }
+  ],
+  "github": [
+    { "title": "GitHub 热门项目 1", "summary": "一个超酷的开源项目，值得关注。", "url": "#" },
+    { "title": "GitHub 热门项目 2", "summary": "今日 star 增长最快的项目。", "url": "#" },
+    { "title": "GitHub 热门项目 3", "summary": "前端开发必备工具库。", "url": "#" },
+    { "title": "GitHub 热门项目 4", "summary": "一个有趣的人工智能应用。", "url": "#" },
+    { "title": "GitHub 热门项目 5", "summary": "一个超酷的开源项目，值得关注。", "url": "#" },
+    { "title": "GitHub 热门项目 6", "summary": "今日 star 增长最快的项目。", "url": "#" },
+    { "title": "GitHub 热门项目 7", "summary": "前端开发必备工具库。", "url": "#" },
+    { "title": "GitHub 热门项目 8", "summary": "一个有趣的人工智能应用。", "url": "#" },
+    { "title": "GitHub 热门项目 9", "summary": "一个超酷的开源项目，值得关注。", "url": "#" },
+    { "title": "GitHub 热门项目 10", "summary": "今日 star 增长最快的项目。", "url": "#" },
+    { "title": "GitHub 热门项目 11", "summary": "前端开发必备工具库。", "url": "#" },
+    { "title": "GitHub 热门项目 12", "summary": "一个有趣的人工智能应用。", "url": "#" }
+  ],
+  "solo_projects": [
+    { "title": "独立开发项目 1", "summary": "一人公司，从零到一的创业故事。", "url": "#" },
+    { "title": "独立开发项目 2", "summary": "分享一个实现盈利的个人项目。", "url": "#" },
+    { "title": "独立开发项目 3", "summary": "一个解决小众需求的实用工具。", "url": "#" },
+    { "title": "独立开发项目 4", "summary": "探索独立开发者的生活方式和收入来源。", "url": "#" },
+    { "title": "独立开发项目 5", "summary": "一人公司，从零到一的创业故事。", "url": "#" },
+    { "title": "独立开发项目 6", "summary": "分享一个实现盈利的个人项目。", "url": "#" },
+    { "title": "独立开发项目 7", "summary": "一个解决小众需求的实用工具。", "url": "#" },
+    { "title": "独立开发项目 8", "summary": "探索独立开发者的生活方式和收入来源。", "url": "#" },
+    { "title": "独立开发项目 9", "summary": "一人公司，从零到一的创业故事。", "url": "#" },
+    { "title": "独立开发项目 10", "summary": "分享一个实现盈利的个人项目。", "url": "#" },
+    { "title": "独立开发项目 11", "summary": "一个解决小众需求的实用工具。", "url": "#" },
+    { "title": "独立开发项目 12", "summary": "探索独立开发者的生活方式和收入来源。", "url": "#" }
+  ]
+}

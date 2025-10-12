@@ -1,0 +1,76 @@
+{
+  "date": "2025-10-11",
+  "category": "GitHub",
+  "projects": [
+    {
+      "title": "【告别繁琐配置】– Tauri",
+      "intro": "想用Web技术构建桌面应用？Tauri让你像写网页一样简单。",
+      "desc": "一个使用Web技术构建桌面应用的框架，体积小、性能高，跨平台支持。",
+      "stars": "74.7k",
+      "language": "Rust",
+      "github": "https://github.com/tauri-apps/tauri",
+      "website": "https://tauri.app/",
+      "features": [
+        "体积小巧",
+        "性能优秀",
+        "跨平台支持"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/tauri-apps/tauri/dev/app.png",
+        "https://raw.githubusercontent.com/tauri-apps/tauri/dev/examples/codegen/src-tauri/icons/32x32.png"
+      ]
+    },
+    {
+      "title": "【AI时代的笔记利器】– Logseq",
+      "intro": "还在用传统的笔记软件？Logseq带你体验知识管理的全新方式。",
+      "desc": "一个本地优先、隐私至上的知识库，支持双向链接和图谱展示，让你的笔记不再孤立。",
+      "stars": "29.4k",
+      "language": "ClojureScript",
+      "github": "https://github.com/logseq/logseq",
+      "website": "https://logseq.com/",
+      "features": [
+        "双向链接",
+        "图谱展示",
+        "隐私优先"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/logseq/logseq/master/screenshots/screenshot-2024-02-06.png"
+      ]
+    },
+    {
+      "title": "【程序员的瑞士军刀】– Broot",
+      "intro": "受够了终端里的ls命令？试试Broot，让文件浏览更高效。",
+      "desc": "一个更好的终端文件浏览器，支持模糊搜索、快速跳转和文件操作，是程序员的效率利器。",
+      "stars": "9.6k",
+      "language": "Rust",
+      "github": "https://github.com/Canop/broot",
+      "website": "https://dystroy.org/broot/",
+      "features": [
+        "模糊搜索",
+        "快速跳转",
+        "文件操作"
+      ],
+      "images": [
+        "https://dystroy.org/broot/img/demo.gif"
+      ]
+    },
+    {
+      "title": "【零代码数据分析神器】– ToolJet",
+      "intro": "想要快速搭建内部工具和仪表盘？ToolJet让你无需编写代码。",
+      "desc": "一个开源的低代码平台，可以连接各种数据源，快速构建内部应用，节省开发时间。",
+      "stars": "24.2k",
+      "language": "JavaScript",
+      "github": "https://github.com/ToolJet/ToolJet",
+      "website": "https://www.tooljet.com/",
+      "features": [
+        "零代码搭建",
+        "连接多种数据源",
+        "快速构建内部应用"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/ToolJet/ToolJet/main/docs/images/home_page_screenshot.png",
+        "https://raw.githubusercontent.com/ToolJet/ToolJet/main/docs/images/builder_screenshot.png"
+      ]
+    }
+  ]
+}

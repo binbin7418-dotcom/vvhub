@@ -1,39 +1,35 @@
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import fs from "fs";
 import path from "path";
 
-export default async function Home() {
+export default async function SoloPage() {
   const filePath = path.join(process.cwd(), "public/data/2025-10-08_daily.json");
   const jsonData = await fs.promises.readFile(filePath, "utf-8");
   const data = JSON.parse(jsonData);
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#e0e7ff] via-[#f2f4ff] to-[#fafcff] font-sans text-gray-800">
-      {/* 顶部导航 */}
       <Navbar />
 
-      {/* 封面标题区 */}
       <section className="text-center mt-14 mb-12">
         <h1 className="text-5xl font-extrabold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          Reddit Daily Trends
+          Startup Stories
         </h1>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-          Global Reddit top posts in one page. Discover daily trends and inspiration.
+          Inspiring stories from indie hackers and solo founders.
         </p>
-
-        {/* 搜索框 */}
         <div className="mt-8 flex justify-center">
           <input
             type="text"
-            placeholder="🔍  Search keywords..."
+            placeholder="🔍  Search projects..."
             className="w-96 border border-gray-300 rounded-full px-5 py-3 shadow focus:outline-none focus:ring-2 focus:ring-indigo-400 transition"
           />
         </div>
       </section>
 
-      {/* 热点卡片区域 */}
+      {/* 卡片区域 - 注意这里用的是 data.solo_projects */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-10 pb-24">
-        {data.reddit.map((item: any, i: number) => (
+        {data.solo_projects.map((item: any, i: number) => (
           <a
             key={i}
             href={item.url}
@@ -42,7 +38,7 @@ export default async function Home() {
           >
             <div className="h-48 bg-gray-200 overflow-hidden">
               <img
-                src={`https://picsum.photos/seed/reddit${i}/600/400`}
+                src={`https://picsum.photos/seed/solo${i}/600/400`}
                 alt={item.title}
                 loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -58,13 +54,9 @@ export default async function Home() {
         ))}
       </div>
 
-      {/* 页脚 */}
       <footer className="bg-gray-900 py-10 text-center shadow-inner">
         <div className="max-w-4xl mx-auto text-gray-400 text-sm">
           <p>© 2025 VVhub · Global Daily Trends</p>
-          <p className="mt-2">
-            Sponsored collaboration / Advertise: binbin7418@gmail.com
-          </p>
         </div>
       </footer>
     </main>
