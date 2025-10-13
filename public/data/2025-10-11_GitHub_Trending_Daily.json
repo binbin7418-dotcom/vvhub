@@ -3,6 +3,7 @@
   "category": "GitHub",
   "projects": [
     {
+      "headline": "发现 4 个贼好玩的 GitHub 项目，相当给劲儿🔥",
       "title": "【告别繁琐配置】– Tauri",
       "intro": "想用Web技术构建桌面应用？Tauri让你像写网页一样简单。",
       "desc": "一个使用Web技术构建桌面应用的框架，体积小、性能高，跨平台支持。",
