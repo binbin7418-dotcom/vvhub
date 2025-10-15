@@ -1,0 +1,77 @@
+{
+  "date": "2025-10-16",
+  "category": "GitHub",
+  "headline": "GitHub 每日热门产品 ",
+  "title": "解锁职场神器 4 款，打工人福音！",
+  "intro": "精选四款提升效率、简化流程的开源项目，助力开发者和职场人士告别996，拥抱更轻松的工作方式。",
+  "projects": [
+    {
+      "title": "【自动化专家】Camunda – 让流程管理优雅运转",
+      "intro": "Camunda 是一款用于业务流程自动化的开放平台，让复杂的审批、决策和任务流都能像拼乐高一样高效执行。",
+      "desc": "Camunda 通过 BPMN 可视化建模、灵活的规则引擎与任务编排功能，帮助企业消除繁琐的人工流转。想象一下，原本需要人工审核、反复确认的合同审批，现在只需在 Camunda 中设置好流程，系统就能自动流转，并实时通知相关人员。无论是搭建审批工作流，还是构建智能化的决策系统，Camunda 都能帮助前后端团队用极少代码快速落地整个流程体系，让你有更多时间专注于更有价值的创新工作。而且它的开源特性意味着你可以根据自己的需求进行定制，真正做到量身定制的流程自动化。",
+      "stars": "3.8k",
+      "language": "Java",
+      "github": "https://github.com/camunda/camunda-bpm-platform",
+      "website": "https://camunda.com/",
+      "features": [
+        "⚙️ 可视化流程编辑器，轻松搭建业务流",
+        "🧠 规则引擎可独立扩展，逻辑更灵活",
+        "📈 内建流程监控面板，让运行透明可追踪"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/camunda/camunda-bpm-platform/master/webapps/theme/frontend/img/Camunda-Logo.svg"
+      ]
+    },
+    {
+      "title": "【写 API 像呼吸】FastEndpoints – .NET 高性能接口框架",
+      "intro": "告别繁琐配置与模板重复，让 API 开发进入“即写即用”时代。",
+      "desc": "FastEndpoints 提供轻量级的约定式开发体验，只需定义输入输出即可自动生成文档、验证与错误响应。这意味着，你可以专注于 API 的核心逻辑，而无需花费大量时间处理那些重复性的配置工作。想象一下，你只需要定义 API 的请求和响应数据结构，FastEndpoints 就会自动帮你生成 Swagger 文档，并进行数据验证。框架内置依赖注入、验证中间件和 OpenAPI 支持，极大减少了模板堆叠时代的样板代码，是 .NET 开发者提升生产力的不二选择。告别繁琐的配置，拥抱更高效的 API 开发体验吧！",
+      "stars": "1.4k",
+      "language": "C#",
+      "github": "https://github.com/FastEndpoints/FastEndpoints",
+      "website": "https://fast-endpoints.com/",
+      "features": [
+        "⚡ 极简定义接口请求与响应",
+        "📄 自动生成 Swagger 文档",
+        "🧩 支持中间件与依赖注入"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/FastEndpoints/FastEndpoints/main/docs/images/logo.png"
+      ]
+    },
+    {
+      "title": "【稳定如锚】Temporal – 分布式工作流的万能胶",
+      "intro": "Temporal 让分布式任务调度再也不宕机：所有任务都可重放、重试与恢复。",
+      "desc": "Temporal 以事件驱动架构实现状态自动恢复，为微服务架构带来事务一致与可靠调度。这就像给你的分布式系统加上了一层保险，即使某个环节出现故障，Temporal 也能保证整个流程的顺利完成。开发者只需专注业务逻辑，其余全部交给 Temporal 自动管理。无论是电商订单流，需要确保订单、支付、库存等环节的一致性，还是机器学习流水线，需要处理大量的数据和复杂的计算，亦或是跨云同步任务，它都能轻松保驾护航，让你再也不用担心任务丢失或状态不一致的问题，安心地构建你的分布式应用。",
+      "stars": "19.8k",
+      "language": "Go",
+      "github": "https://github.com/temporalio/temporal",
+      "website": "https://temporal.io",
+      "features": [
+        "🔁 任意任务级别的重试与补偿机制",
+        "🧮 支持跨语言 SDK：Go、Java、Python",
+        "🐳 可在本地 Docker 快速启动一体化服务"
+      ],
+      "images": [
+        "https://temporal.io/static/logo.svg"
+      ]
+    },
+    {
+      "title": "【日志界的显微镜】Grafana Loki – 轻量级日志聚合系统",
+      "intro": "日志搜索不再痛苦，Loki 以惊人的速度帮你发现问题根源。",
+      "desc": "由 Grafana Labs 打造的 Loki 完全兼容 Prometheus 标签体系，不依赖全文索引即可实现高效日志聚合。这意味着，你可以使用与监控系统相同的标签来搜索日志，从而快速定位问题。想象一下，当你的应用出现问题时，不再需要花费大量时间在海量的日志中寻找线索，只需在 Grafana 中输入相关的标签，Loki 就能立刻帮你找到问题的根源。结合 Grafana 仪表盘，你能在一分钟内把大量日志转成可视化洞察，是 DevOps 工程师排障的终极利器。它以其轻量级、高效的特性，成为 DevOps 工程师不可或缺的工具。",
+      "stars": "21.2k",
+      "language": "Go",
+      "github": "https://github.com/grafana/loki",
+      "website": "https://grafana.com/oss/loki/",
+      "features": [
+        "🔍 与 Prometheus 元数据无缝集成",
+        "📊 Grafana 面板一键可视化日志",
+        "⚙️ 超高压缩率，节省存储成本"
+      ],
+      "images": [
+        "https://grafana.com/static/img/logos/logo-loki.svg"
+      ]
+    }
+  ]
+}
